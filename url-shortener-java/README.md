@@ -61,12 +61,9 @@ git init
 git add .
 git commit -m "feat: build production-style URL shortener"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/url-shortener-java.git
+git remote add origin https://github.com/Vermaaditya3030/url-shortener-java.git
 git push -u origin main
 ```
-
-Replace `YOUR_USERNAME` with your GitHub username.
-
 ## Next improvements
 
 - Add Redis read-through caching
